@@ -11,7 +11,12 @@ package part2
 
  */
 fun solution(a: String): Char {
-    TODO("Not yet implemented")
+    when(a.length){
+        in 1..11 -> return 'A'
+        20 -> return 'B'
+        15 -> return 'C'
+        else -> return 'D'
+    }
 }
 
 fun main() {
