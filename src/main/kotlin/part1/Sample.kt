@@ -5,7 +5,13 @@ package part1
 Гарантируется, что число положительное.
  */
 fun solution(a: Int): Char {
-    return 'A'
+    val s = a.toString()
+    when(s.length){
+        2 -> return 'A'
+        3 -> return 'B'
+        else -> return 'c'
+    }
+
 }
 
 fun main() {
