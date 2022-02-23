@@ -5,15 +5,17 @@ package part1
 Гарантируется, что число положительное.
  */
 fun solution(a: Int): Char {
-    TODO("Not yet implemented")
+    return 'A'
 }
 
 fun main() {
+    println("some")
     println(solution(5))     // C
     println(solution(99))    // A
     println(solution(45))    // A
     println(solution(235))   // B
-    println(solution(1736))  // C
+    println(solution(176))  // C
 }
+//kighyluygudd
 
 
